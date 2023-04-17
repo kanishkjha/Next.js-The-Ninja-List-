@@ -1,11 +1,11 @@
-import Link from 'next/link'
-import Image from 'next/image'
+import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <Image src="/ninja.avif" width={128} height={77} />
+        <Image src="/shuriken.jpeg" width={128} height={77} />
       </div>
       <Link legacyBehavior href="/">
         <a>Home</a>
@@ -17,7 +17,7 @@ const Navbar = () => {
         <a>Ninja Listing</a>
       </Link>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
